@@ -1,6 +1,6 @@
 {% set name = "champ" %}
-{% set version = "2.0.3" %}
-{% set sha256 = "9ad39db76e5b137cf2dcffe82c4e2b2517d05b64c25d822b7d6128e84dda446a" %}
+{% set version = "2.0.4" %}
+{% set sha256 = "e6b326c7b7085067338f1764bd40406119aa0f914f47f028c6a9a94021b766ed" %}
 
 package:
   name: {{ name }}
