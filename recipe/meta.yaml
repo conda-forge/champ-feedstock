@@ -1,6 +1,6 @@
 {% set name = "champ" %}
-{% set version = "2.0.4" %}
-{% set sha256 = "e6b326c7b7085067338f1764bd40406119aa0f914f47f028c6a9a94021b766ed" %}
+{% set version = "2.1.0" %}
+{% set sha256 = "e4483770196c389800fb771721df0e29b008cb39837a94ee215690b51f71a7cb" %}
 
 package:
   name: {{ name }}
@@ -35,6 +35,7 @@ requirements:
     - seaborn
     - tqdm
     - louvain
+    - leidenalg
     - scikit-learn
     - future
 
