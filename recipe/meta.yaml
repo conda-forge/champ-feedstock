@@ -12,7 +12,7 @@ source:
 
 build:
   script: "{{ PYTHON }} -m pip install . -vv"
-  number: 0
+  number: 1
   noarch: python
 
 
@@ -27,7 +27,7 @@ requirements:
   run:
     - python
     - python-igraph
-    - matplotlib
+    - matplotlib-base
     - numpy >=1.13
     - scipy >=0.19
     - pandas
