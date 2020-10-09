@@ -5,9 +5,11 @@ Home: https://github.com/wweir827/CHAMP
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/champ-feedstock/blob/master/LICENSE.txt)
 
 Summary: A modularity based tool for screening a set of partitions.
+
+Documentation: https://champ.readthedocs.io/en/latest
 
 Modularity based community detection for networks and filtering
 based presence of domain of optimality within the resolution space.
