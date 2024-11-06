@@ -1,6 +1,6 @@
 {% set name = "champ" %}
-{% set version = "2.1.0" %}
-{% set sha256 = "e4483770196c389800fb771721df0e29b008cb39837a94ee215690b51f71a7cb" %}
+{% set version = "2.1.1" %}
+{% set sha256 = "c1be8d939abe104de5c7d19a51cbe3b4b9f6b4ddb0416168110607daaf968945" %}
 
 package:
   name: {{ name }}
@@ -11,8 +11,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  script: "{{ PYTHON }} -m pip install . -vv"
-  number: 1
+  script: {{ PYTHON }} -m pip install . -vv
+  number: 0
   noarch: python
 
 
@@ -49,12 +49,12 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'A modularity based tool for screening a set of partitions.'
+  summary: A modularity based tool for screening a set of partitions.
   description: |
     Modularity based community detection for networks and filtering
     based presence of domain of optimality within the resolution space.
   doc_url: https://champ.readthedocs.io/en/latest
 
 extra:
-  recipe-maintainers: 
+  recipe-maintainers:
     - wweir827
