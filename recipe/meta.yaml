@@ -12,20 +12,20 @@ source:
 
 build:
   script: "{{ PYTHON }} -m pip install . -vv"
-  number: 1
+  number: 2
   noarch: python
 
 
 requirements:
 
   host:
-    - python
+    - python {{ python_min }}
     - igraph
     - setuptools
     - pip
 
   run:
-    - python
+    - python >={{ python_min }}
     - python-igraph
     - matplotlib-base
     - numpy >=1.13
@@ -41,6 +41,8 @@ requirements:
 
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - champ
 
